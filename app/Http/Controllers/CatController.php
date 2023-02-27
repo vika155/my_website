@@ -26,6 +26,15 @@ class CatController extends Controller
             'scratch' => $id
         ]);
     }
+
+    public function shit($id)
+    {
+
+        return view('test.shit', [
+            'someNumber' => 5,
+            'shit' => $id
+        ]);
+    }
 }
 
 
